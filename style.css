@@ -1,0 +1,108 @@
+/* css reset */
+body {
+    font-family: cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(/img/man-ge106f11ad_1920.jpg);
+  }
+
+  .left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 40px;
+    top: 20px;
+  }
+
+  .left img {
+    width: 220px;
+    filter: invert(100%);
+  }
+
+  .left div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .mid {
+    display: block;
+    width: 59%;
+    margin: 20px auto;
+    /* border: 2px solid green; */
+  }
+
+  .navbar {
+    display: inline-block;
+  }
+
+  .navbar li {
+    display: inline-block;
+    font-size: 25px;
+  }
+
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+  }
+
+  .navbar li a:hover,
+  .navbar li a:active {
+    text-decoration: underline;
+    color: grey;
+  }
+
+  .right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+  }
+
+  .btn {
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: rgb(235, 149, 149);
+  }
+
+  .container {
+    border: 2px solid white;
+    margin: 100px 191px;
+  padding: 24px;
+  width: 48%;
+  border-radius: 28px;
+  }
+
+  .form-group input {
+    text-align: center;
+    display: block;
+    width: 319px;
+    padding: 9px;
+    border: 2px solid black;
+    margin: 8px auto;
+    font-size: 25px;
+    border-radius: 50px;
+    font-family: cursive;
+  }
+
+  .container h1 {
+    text-align: center;
+  }
+
+  .container button {
+    display: block;
+    width: 205px;
+    margin: 20px auto;
+  }
